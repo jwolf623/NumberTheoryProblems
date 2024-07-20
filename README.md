@@ -1,5 +1,4 @@
 
-ChatGPT
 README
 Overview
 This code is designed to identify and count twin primes within a specified range of numbers. Twin primes are pairs of prime numbers that have a difference of two. The code includes a function to check for prime numbers and a process to identify and print twin primes from 1 to 30.
