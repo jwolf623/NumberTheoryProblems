@@ -5,15 +5,7 @@ This code is designed to identify and count twin primes within a specified range
 
 Code Breakdown
 1. Prime Checking Function
-python
-Copy code
-def is_prime(k):
-    j = round(k / 2)
-    val = True
-    for i in range(2, j):
-        if k % i == 0:
-            return False
-    return True
+
 Purpose: Determines if a given number k is a prime number.
 
 Parameters:
@@ -27,23 +19,12 @@ Logic:
 It checks divisibility of k from 2 to k/2. If k is divisible by any number in this range, it is not a prime.
 3. Finding Prime Numbers in a Range
 
-p_nums = []
-for i in range(1, 30):
-    if is_prime(i):
-        p_nums.append(i)
-        
 Purpose: Generates a list of prime numbers between 1 and 30.
 
 Variables:
 p_nums (list): Stores prime numbers within the range.
-4. Identifying Twin Primes
 
-tp_count = 0
-for num in p_nums:
-    pot_twin = num + 2
-    if is_prime(pot_twin):
-        tp_count += 1
-        print(num, pot_twin, "are twin primes.")
+4. Identifying Twin Primes
         
 Purpose: Identifies and prints twin primes from the list of prime numbers.
 
