@@ -18,14 +18,14 @@ False otherwise.
 Logic:
 It checks divisibility of k from 2 to k/2. If k is divisible by any number in this range, it is not a prime.
 
-3. Finding Prime Numbers in a Range
+2. Finding Prime Numbers in a Range
 
 Purpose: Generates a list of prime numbers between 1 and 30.
 
 Variables:
 p_nums (list): Stores prime numbers within the range.
 
-4. Identifying Twin Primes
+3. Identifying Twin Primes
         
 Purpose: Identifies and prints twin primes from the list of prime numbers.
 
@@ -33,7 +33,7 @@ Variables:
 tp_count (int): Counter for the number of twin primes found.
 pot_twin (int): Potential twin prime number, calculated as num + 2.
 
-5. Printing the Number of Twin Primes
+4. Printing the Number of Twin Primes
 
 print('The number of twin primes is:', tp_count)
 Purpose: Print the total count of twin primes found in the specified range.
