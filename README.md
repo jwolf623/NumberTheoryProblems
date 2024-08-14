@@ -17,6 +17,7 @@ False otherwise.
 
 Logic:
 It checks divisibility of k from 2 to k/2. If k is divisible by any number in this range, it is not a prime.
+
 3. Finding Prime Numbers in a Range
 
 Purpose: Generates a list of prime numbers between 1 and 30.
