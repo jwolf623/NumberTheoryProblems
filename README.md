@@ -38,12 +38,6 @@ pot_twin (int): Potential twin prime number, calculated as num + 2.
 print('The number of twin primes is:', tp_count)
 Purpose: Print the total count of twin primes found in the specified range.
 
-How to Run the Code
-Ensure you have a Python interpreter installed.
-Copy the entire code snippet into a Python file (e.g., twin_primes.py).
-Run the file using the command: python twin_primes.py.
-The output will display pairs of twin primes and the total number of twin primes found within the range of 1 to 30.
-
 Additional Notes
 The prime checking function is_prime can be optimized further to improve performance.
 The range can be adjusted by modifying the loop limits in the second section of the code.
